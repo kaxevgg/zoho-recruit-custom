@@ -364,7 +364,7 @@ window.rec_embed_js = window.rec_embed_js || {
 						content = eachJob[eachField.api_name];
 
 					if (eachField.api_name === "Job_Description") {
-						continue;
+						content = content;
 					}
 
 					if (eachField.api_name === "Job_Opening_Name" || content === "null" || content === "" || content === undefined || content == null) {
